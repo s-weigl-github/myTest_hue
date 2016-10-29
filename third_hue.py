@@ -16,11 +16,9 @@ b.connect()
 
 b.get_api()
 
-b.set_light(['zimmer'], 'bri', 20)
-sleep(5)
-b.set_light(['flur', 'küche'], 'bri', 20)
-b.set_light(['flur', 'zimmer', 'küche'], 'sat', 45)
-b.set_light(['flur', 'zimmer', 'küche'], 'hue', 235)
+b.set_light(['küche'], 'bri', 80)
+b.set_light(['küche'], 'sat', 45)
+b.set_light(['küche'], 'hue', 235)
 
 
 # E-o-F
