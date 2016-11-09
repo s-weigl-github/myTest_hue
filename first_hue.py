@@ -8,7 +8,7 @@
 from phue import Bridge
 from time import sleep
 
-b = Bridge(ip='192.168.61.21')
+b = Bridge(ip='192.168.61.2')
 
 b.connect()
 
